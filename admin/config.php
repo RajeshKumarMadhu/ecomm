@@ -9,7 +9,7 @@ define('HTTPS_CATALOG', 'http://' . $_SERVER['SERVER_NAME'].'/');
 
 // DIR
 define('DIR_APPLICATION', '/app/admin/');
-define('DIR_SYSTEM', '/app/system/');
+define('DIR_SYSTEM', '/app/system/');		
 define('DIR_LANGUAGE', '/app/admin/language/');
 define('DIR_TEMPLATE', '/app/admin/view/template/');
 define('DIR_CONFIG', '/app/system/config/');
@@ -17,6 +17,7 @@ define('DIR_IMAGE', '/app/image/');
 define('DIR_CACHE', '/app/system/storage/cache/');
 define('DIR_DOWNLOAD', '/app/system/storage/download/');
 define('DIR_LOGS', '/app/system/storage/logs/');
+define('DIR_STORAGE', '/app/system/storage/'); 
 define('DIR_MODIFICATION', '/app/system/storage/modification/');
 define('DIR_UPLOAD', '/app/system/storage/upload/');
 define('DIR_CATALOG', '/app/catalog/');
